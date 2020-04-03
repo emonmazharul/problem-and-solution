@@ -19,15 +19,4 @@ function dashatize(num){
     return res+numChar[numChar.length-1];
 }
 
-function mostArr(arr){
-    let ee = [];
-    for(let i=0;i<fr.length;i++){
-        for(let j=0;j<fr.length;j++){
-            if(!ee.includes(fr[i])){
-                ee.push(fr[i])
-            }
-        }
-    }
-}
-
-mostArr([12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10])
+dashatize(6789); //return 6-7-8-9 
